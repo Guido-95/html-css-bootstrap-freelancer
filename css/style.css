@@ -23,13 +23,14 @@ body{
 }
 
 .yellow{
-    height: 100px;
+    height: 70px;
     border: 2px solid black;
     background-color: yellow;
 }
 
 .yellow-2{
     padding: 0px 80px;
+    height: 70px;
     margin-top: 50px;
     border: 2px solid black;
     background-color: yellow;
@@ -54,16 +55,13 @@ button{
     background-color:#1abc9c;
     margin-top: 50px;
 }
-.custom{
-    margin-top: 25px;
-    height: 50px;
-    background-color: grey;
-}
+
+
 
 .fa-star{
     font-size: 50px;
 }
-
+/* section */
 #section-1{
     background-color: lightgrey;
     padding-bottom: 50px;
@@ -82,11 +80,14 @@ button{
 
 }
 
+/* footer */
 .footer-bottom-background{
     height:200px;
 }
 
 .footer-top-background{
-    height: 500px;
+    height: 300px;
     background-color: #3a546d;
 }
+
+
