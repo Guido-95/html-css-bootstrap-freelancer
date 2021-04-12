@@ -80,7 +80,7 @@ button {
    
 }
 
-button:hover{
+#button_hover:hover {
     color: #212529;
     background-color: white;
 }
@@ -236,7 +236,6 @@ textarea:focus {
 }
 
 .portfolio_item:hover .plus {
-    
     display: block;
 }
 
