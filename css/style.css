@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 /* general */
@@ -25,6 +26,22 @@ hr {
     border-width: 2px;
 }
 
+form {
+    text-align: left;
+
+}
+
+label {
+    font-weight:400;
+    font-size: 20px;
+    color: #334455;
+}
+input {
+    border-width: 0 0 1px;
+    border-color: lightgrey;
+    margin: 5px 0px;
+    width: 100%;
+}
 
 h1 {
     font-size: 55px;
@@ -38,6 +55,29 @@ h2 {
     font-size: 40px;
 }
 
+img{
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+textarea{
+    border-width: 0 0 1px;
+    border-color: lightgrey;
+    margin: 5px 0px;
+    width: 100%;
+    display: block;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:#1abc9c;
+    margin-top: 50px;
+}
 
 /* list - link style */
 .list-style{
@@ -65,7 +105,10 @@ h2 {
     text-align: left;
 }
 
-
+/* only xs */
+.only-xs{
+    display: none;
+}
 
 /* header */
 
@@ -98,12 +141,25 @@ h2 {
 .custom-color{
     border-color: #2c3e50;
     color: #2c3e50;
+
+}
+
+/* paragraphs */
+.paragraph{
+    margin-bottom: 15px;
+    font-size: 19px;
+    
+}
+
+.paragraph-2{
+    font-size: 19px;
 }
 
 
-
-
-
+.container-width-60{
+    width: 60%;
+    margin: 0 auto;
+}
 
 .header-background,
 .footer-bottom-background{
@@ -133,7 +189,7 @@ h2 {
 
 .star-line-height {
     line-height: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
 }
 
@@ -174,6 +230,9 @@ h2 {
     width: auto;
 }
 
+.padding-null{
+    padding: 0;
+}
 
 /* footer */
 footer {
@@ -183,7 +242,7 @@ footer {
 
 .margin-footer-top {
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .footer-top-background {
@@ -191,17 +250,53 @@ footer {
     background-color: #3a546d;
 }
 
+.h3-footer {
+    text-transform: uppercase;
+}
+
+#address{
+    font-size: 18px;
+}
 
 
+.social{
+    font-size: 15px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 15px;
+}
 
+.social-{
+    font-size: 15px;
+    color: white;
+    margin: 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 15px 18px;
+}
 
+.green-strong-text{
+    color: #1aba9b;
+    
+}
+
+footer .paragraph{
+    text-align: center;
+}
+
+#copyright{
+    line-height: 100px;
+}
 
 
 footer a{
     margin: 2px;
 }
 
+@media screen and (max-width:767){
 
-
+    
+}
 
 
