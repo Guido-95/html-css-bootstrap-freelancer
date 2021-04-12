@@ -5,11 +5,105 @@
     margin: 0;
 }
 
+/* general */
 
-body{
+body {
     text-align: center  ;
-    background-color: green;
+    font-family: 'Roboto', sans-serif;
 }
+
+ul {
+    margin: 0;
+}
+
+hr {
+    vertical-align: middle;
+    display: inline-block;
+    width: 12%;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+
+h1 {
+    font-size: 55px;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+   
+    font-size: 40px;
+}
+
+
+/* list - link style */
+.list-style{
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 5px;
+    color:white;
+}
+
+.link-style{
+    padding: 0px 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+/* text - align  */
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+
+
+
+/* header */
+
+.header-top{
+    line-height: 80px;
+}
+
+.jumbotron_{
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background-color:#1abc9c ;
+}
+
+#jumbotron-img{
+    margin-top: 35px;
+    width: 25%;
+}
+
+.h2-jumbotron{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+.white{
+    color: white;
+    border-color: white;
+}
+.custom-color{
+    border-color: #2c3e50;
+    color: #2c3e50;
+}
+
+
+
+
+
 
 .header-background,
 .footer-bottom-background{
@@ -17,15 +111,13 @@ body{
     background-color: #2c3e50;
 }
 
-.jumbotron-color{
-    height: 500px;
-    background-color:#1abc9c ;
-}
+
+
 
 .yellow{
-    height: 70px;
+   
     border: 2px solid black;
-    background-color: yellow;
+    background-color: lightgreen;
 }
 
 .yellow-2{
@@ -37,57 +129,79 @@ body{
 
 }
 
-img{
-    padding: 10px;
-    width: 100%;
+
+
+.star-line-height {
+    line-height: 50px;
+    margin-bottom: 15px;
+
 }
 
-h2{
-    margin-bottom: 20px;
-    height: 50px;
-    background-color: yellow;
-}
-button{
-    padding: 10px;
-    border: 1px solid white;
-    color: white;
-    font-size: 20px;
-    background-color:#1abc9c;
-    margin-top: 50px;
+.fa-star {
+    vertical-align: middle;
+    font-size: 28px;
+    margin: 0px 28px;
 }
 
 
 
-.fa-star{
-    font-size: 50px;
-}
-/* section */
+/* main */
+
 #section-1{
-    background-color: lightgrey;
     padding-bottom: 50px;
 }
 
 #section-2{
+    padding-top: 35px;
     padding-bottom: 30px;
     background-color: #1abc9c;
 
 }
 
 #section-3{
-    height: 500px;
+    padding-bottom: 50px;
     padding-top: 50px;
-    background-color: lightgrey;
+    background-color: white;
 
 }
+#submit{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #1abc9c;
+    border-radius:10px;
+    padding: 10px 20px;
+    width: auto;
+}
+
 
 /* footer */
-.footer-bottom-background{
-    height:200px;
+footer {
+    padding-top: 20px;
+    background-color: #3a546d;  
 }
 
-.footer-top-background{
-    height: 300px;
+.margin-footer-top {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.footer-top-background {
+    
     background-color: #3a546d;
 }
+
+
+
+
+
+
+
+footer a{
+    margin: 2px;
+}
+
+
+
 
 
