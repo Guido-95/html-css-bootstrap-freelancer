@@ -16,13 +16,13 @@
     <!-- header -->
     <header class="header-background">
         <!-- header-top -->
-        <div class="header-top">
+        <nav class="header-top">
             <!-- container -->
             <div class="container">
                 <!-- row -->
                 <div class="row">
                     <!-- unordered list left header -->
-                    <div class="col-xs-8 col-sm-7 text-left">
+                    <div class="col-xs-7 col-sm-7 text-left">
                         
                         <ul>
                             <li class="list-style font-xs"> 
@@ -38,8 +38,44 @@
                     <!-- /unordered list left header -->
 
                     <!-- link right header -->
-                    <div class="col-xs-4 col-sm-5 text-right">
-                        <!-- unordered list -->
+                    <div class="col-xs-5 col-sm-5 text-right">
+                        
+                        <!-- container-button-list-link-xs -->
+                        <div class="container-button-hidden hidden-sm hidden-md hidden-lg">  
+                            <!-- button only xs -->
+                            <button type="button" class="navbar-toggle collapsed button_header" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar ms_icon_bar"></span>
+                                <span class="icon-bar ms_icon_bar"></span>
+                                <span class="icon-bar ms_icon_bar"></span>
+                            </button>
+                            <!-- /button only xs -->
+                            
+                            <!-- list only xs -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"">
+                                <ul class="right"  style="margin-top: 60px">
+                                    <li class="list-style-button">
+                                        <a href="#section-1" class="link-style_button">
+                                            portfolio
+                                        </a> 
+                                    </li>
+                                    <li class="list-style-button"> 
+                                        <a href="#section-2" class="link-style_button">
+                                            about
+                                        </a>
+                                    </li>
+                                    <li class="list-style-button"> 
+                                        <a href="#section-3" class="link-style_button">
+                                            contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /list only xs -->
+                        </div>
+                        <!-- container-button-list-link-xs -->
+
+                        <!-- link right header -->
                         <ul class="right hidden-xs">
                             <li  class="list-style">
                                 <a href="#section-1" class="link-style">
@@ -59,58 +95,40 @@
                         </ul>
                         <!-- /unordered list -->
                     </div>
-                    <!-- link right header -->
+                    <!-- /link right header -->
                 </div> 
                 <!-- /row --> 
             </div>
             <!-- /container -->
-        </div>
+        </nav>
         <!-- /header-top -->
 
         <!-- header-bot-jumbotron -->
-        <div class="container-fluid jumbotron_ ">
-            <!-- container -->
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <!-- img jumbotron -->
-                    <div class="col-md-12 ">
-                        <img src="img/avatar.svg" alt="avatar" id="jumbotron-img">
-                    </div>
-                    <!-- /img jumbotron -->
+        <div class="container-fluid" id="jumbotron">
+    
+            <!-- img jumbotron -->
+                <img src="img/avatar.svg" alt="avatar" id="jumbotron-img">
+            <!-- /img jumbotron -->
 
-                    <!-- h1 jumbotron -->
-                    <div class=" col-md-12 ">
-                        <h1> 
-                            start bootstrap 
-                        </h1>
-                    </div>
-                    <!-- /h1 jumbotron -->
+            <!-- h1 jumbotron -->
+                <h1> 
+                    start bootstrap 
+                </h1>
+            <!-- /h1 jumbotron -->
 
-                    <!-- line-star-line -->
-                    <div class=" col-md-12 ">
-                        <div class="star-line-height">
-                            
-                                <hr class="white"> 
-                                <i class="fas fa-star white"></i> 
-                                <hr class="white"> 
-                          
-                        </div>
-                    </div>
-                    <!-- /line-star-line -->
-
-                    <!-- h2 jumbotron -->
-                    
-                        <h2 class="h2-jumbotron ">
-                            graphic artist -  web Designer - illustrator  
-                        </h2>
-                        
-                   
-                    <!-- /h2 jumbotron -->         
+            <!-- line-star-line -->
+                <div class="star-line-height">
+                        <hr class="white"> 
+                        <i class="fas fa-star white"></i> 
+                        <hr class="white">  
                 </div>
-                <!-- /row -->
-            </div> 
-            <!-- /container -->   
+            <!-- /line-star-line -->
+
+            <!-- h2 jumbotron -->
+                <h2 class="h2-jumbotron ">
+                    graphic artist -  web Designer - illustrator  
+                </h2>
+            <!-- /h2 jumbotron -->         
         </div>       
         <!-- header-bot-jumbotron -->
     </header>
@@ -128,38 +146,63 @@
                     Portfolio
                 </h2>
                 <!-- /h2 section 1 -->
+
                 <!-- star line star -->
                 <div class="star-line-height">
                     <span class="star-line"> 
-                        <hr class="custom-color"> 
-                        <i class="fas fa-star custom-color"></i> 
-                        <hr class="custom-color"> 
+                        <hr class="line-star-color"> 
+                        <i class="fas fa-star line-star-color"></i> 
+                        <hr class="line-star-color"> 
                     </span>
                 </div>
                 <!-- /star line star -->
                 <!-- row -->
                 <div class="row">
                     <!-- images section Portfolio -->
+                    <div class="col-xs-12 col-sm-6 col-lg-4 referent_plus">
+                        <div class="portfolio_item">
+                            <i class="fas fa-plus plus"></i> 
+                            <img src="img/cabin.png" alt="cabin">
+                        </div> 
+                    </div> 
                     
-                    <div class="col-xs-12 col-sm-6 col-lg-4">
-                        <img src="img/cabin.png" alt="cabin">    
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-4">
-                        <img src="img/cake.png" alt="cake"> 
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-4">
-                        <img src="img/circus.png" alt="circus"> 
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-4">
-                        <img src="img/game.png" alt="game"> 
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-4">
-                        <img src="img/safe.png" alt="safe"> 
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-4">
-                        <img src="img/submarine.png" alt="submarine"> 
-                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4 referent_plus">
+                        <div class="portfolio_item">
+                            <i class="fas fa-plus plus"></i> 
+                            <img src="img/cake.png" alt="cake">
+                        </div> 
+                    </div> 
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4 referent_plus">
+                        <div class="portfolio_item">
+                            <i class="fas fa-plus plus"></i> 
+                            <img src="img/circus.png" alt="circus">
+                        </div> 
+                    </div> 
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4 referent_plus">
+                        <div class="portfolio_item">
+                            <i class="fas fa-plus plus"></i> 
+                            <img src="img/game.png" alt="game">
+                        </div> 
+                    </div> 
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4 referent_plus">
+                        <div class="portfolio_item">
+                            <i class="fas fa-plus plus"></i> 
+                            <img src="img/safe.png" alt="safe">
+                        </div> 
+                    </div> 
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4 referent_plus">
+                        <div class="portfolio_item">
+                            <i class="fas fa-plus plus"></i> 
+                            <img src="img/submarine.png" alt="submarine">
+                        </div> 
+                    </div> 
+
                     <!-- /images section Portfolio -->
+
                 </div>
                 <!-- /row -->
             </div>
@@ -175,6 +218,7 @@
                     About
                 </h2>
                 <!-- /h2 section 2 -->
+
                 <!-- star line star -->
                 <div class="star-line-height">
                     <span class="star-line"> 
@@ -184,11 +228,13 @@
                     </span>
                 </div>
                 <!-- /star line star -->
-            <!-- container only xs -->
+
+            <!-- container-width-60 -->
             <div class="container-width-60">
               
                 <!-- row -->
                 <div class="row">
+
                     <!-- paragraph section 2 -->
                     <div class="col-xs-12  col-sm-6 col-lg-6">
                         <p class="paragraph white text-left">
@@ -224,26 +270,26 @@
                 <!-- /row -->
                
             </div>
-            <!-- /container only xs -->
+            <!-- container-width-60 -->
         </section>
         <!-- /section 2/3 -->
 
         <!-- section 3/3 -->
         <section id="section-3">
-            <!-- container -->
+            <!-- container-width-60 -->
             <div class="container-width-60">
                 <!-- h2 section 3 -->
                 <h2> 
-                    CONTACT ME 
+                    Contact me
                 </h2>
                 <!-- -h2 section 3 -->
 
                 <!-- line star line -->
                 <div class="star-line-height">
                     <span class="star-line"> 
-                        <hr class="custom-color"> 
-                        <i class="fas fa-star custom-color"></i> 
-                        <hr class="custom-color"> 
+                        <hr class="line-star-color"> 
+                        <i class="fas fa-star line-star-color"></i> 
+                        <hr class="line-star-color"> 
                     </span>
                 </div>
                 <!-- /line star line -->
@@ -254,30 +300,32 @@
                     <label for="fname">
                         Name
                     </label>
-                    <input type="text" id="fname" name="fname">
+                    <input type="text" id="fname" name="fname" placeholder="Insert Name here">
 
                     <label for="email">
                         Email Address
                     </label>  
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" placeholder="Insert Email here">
                     <label for="number">
                         Phone Number
                     </label> 
 
-                    <input type="number" id="number" name="number">
+                    <input type="number" id="number" name="number" placeholder="Insert Number here">
                     <label for="message">
                         Message
                     </label>
 
-                    <textarea id="message" name="message" rows="5" cols="1"> </textarea>
+                    <textarea id="message" name="message" rows="5" cols="1"></textarea>
                     <!-- /personal informations -->
                     <!-- submit -->
-                    <input type="submit" value="Send"id="submit">
+                    <input type="submit" value="Send" id="submit">
                     <!-- /submit --> 
+
+                    
                 </form>
                 <!-- form -->   
             </div>
-            <!-- /container -->
+            <!-- container-width-60 -->
         </section>
         <!-- /section 3/3 -->
 
@@ -288,71 +336,83 @@
 
     <!-- footer -->
     <footer>
+        
        
-        <div class="margin-footer-top">
-            <!-- container -->
-            <div class="container footer-top-background">
-                <!-- row -->
-                <div class="row">
-                    <!-- footer h3 - address -->
-                    <div class="col-xs-12 col-sm-4  col-lg-4 ">
-                        <h3 class="h3-footer white"">
-                            location
-                        </h3>
-                        <div id="address" class="white">
-                            2215 John Daniel Drive Clark, MO <br> 54231 
-                        </div>
-                    </div>
-                    <!-- /footer h3 - address -->
-
-                    
-                    <div class="col-xs-12 col-sm-4  col-lg-4 ">
-                        <h3 class="h3-footer white">
-                            around the web
-                        </h3>
-                        <a href="">  
-                            <i class="fab fa-facebook-f social-"></i>
-                        </a>
-                        <a href=""> 
-                            <i class="fab fa-google-plus-g social"></i>
-                        </a>
-                        <a href=""> 
-                            <i class="fab fa-twitter social"></i>
-                        </a>
-                        <a href=""> 
-                            <i class="fab fa-linkedin-in social-"></i>
-                        </a>
-                    </div>
-                    
-
-                    <div class="col-xs-12 col-sm-4 col-lg-4 ">
-                        <h3 class="h3-footer white"">
-                            around the web
-                        </h3>
-                        <p class="paragraph-2 white">
-                            Freelance is a free to use, open soruce Bootstrap theme created by 
-                            <a href=""> 
-                                <span class="green-strong-text"> 
-                                    Start Bootstrap
-                                </span>.
-                            </a>
-                        </p>
+        <!-- container -->
+        <div class="container footer-top-background">
+            <!-- row -->
+            <div class="row">
+                <!-- footer-top-left -->
+                <div class="col-xs-12 col-sm-4  col-lg-4 ">
+                    <h3 class="h3-footer white"">
+                        location
+                    </h3>
+                    <div id="location" class="white">
+                        2215 John Daniel Drive Clark, MO <br> 54231 
                     </div>
                 </div>
-                <!-- /row -->
-           </div> 
-           <!-- /container -->
-        </div>
-       
+                <!-- /footer-top-left -->  
+
+                <!-- footer-top-middle -->  
+                <div class="col-xs-12 col-sm-4  col-lg-4 ">
+                    <h3 class="h3-footer white">
+                        around the web
+                    </h3>
+
+                    <!-- social -->
+                    <a href="">  
+                        <i class="fab fa-facebook-f social-1-4"></i>
+                    </a>
+                    <a href=""> 
+                        <i class="fab fa-google-plus-g social-2-3"></i>
+                    </a>
+                    <a href=""> 
+                        <i class="fab fa-twitter social-2-3"></i>
+                    </a>
+                    <a href=""> 
+                        <i class="fab fa-linkedin-in social-1-4"></i>
+                    </a>
+                    <!-- social -->
+                </div>
+                <!-- /footer-top-middle -->   
+
+                <!-- footer-top-right -->
+                <div class="col-xs-12 col-sm-4 col-lg-4">
+                    <h3 class="h3-footer white"">
+                        around the web
+                    </h3>
+                    <p class="paragraph white">
+                        Freelance is a free to use, open soruce Bootstrap theme created by 
+                        <a href="" class="green-strong-text"> 
+                                Start Bootstrap
+                        </a>
+                    </p>
+                </div>
+                <!-- /footer-top-right -->
+            </div>
+            <!-- /row -->
+        </div> 
+        <!-- /container -->
+        
+        <!-- footer-top -->
+
+        <!-- footer-bottom -->
         <div class="container-fluid footer-bottom-background">
-           
+           <!-- copyright -->
             <div class="container">
                 <div class="col-xs-12 white " id="copyright">
                     Copyright 	&copy; Your Website 2019
                 </div>
             </div>
+            <!-- /copyright -->
         </div>  
+        <!-- /footer-bottom -->
     </footer>
     <!-- /footer -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
