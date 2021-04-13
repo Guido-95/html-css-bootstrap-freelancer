@@ -63,9 +63,20 @@ textarea {
     border-width: 0 0 1px;
     border-color: lightgrey;
     margin: 5px 0px;
+    padding: 20px;
     width: 100%;
     display: block;
 }
+
+input {
+    border-width: 0 0 1px;
+    border-color: lightgrey;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+
 button {
     transition: color 0.20s ease-in-out, background-color 0.20s ease-in-out, border-color 0.20s ease-in-out, box-shadow 0.20s ease-in-out;
     font-size: 20px;
@@ -80,20 +91,6 @@ button {
 #button_hover:hover {
     color: #212529;
     background-color: white;
-}
-
-label {
-    font-weight:400;
-    font-size: 20px;
-    color: #334455;
-}
-
-input {
-    border-width: 0 0 1px;
-    border-color: lightgrey;
-    margin: 5px 0px;
-    width: 100%;
-    padding: 20px;
 }
 
 input:focus {
@@ -115,7 +112,7 @@ textarea:focus {
     background-color: #1abc9c;
 }
 
-#submit:hover{
+#submit:hover {
     border-color: #159a80;
     background-color: #159a80;
 }
@@ -168,13 +165,10 @@ textarea:focus {
 }
 
 /* /line-star-line-style */
-
-
 .white {
     color: white;
     border-color: white;
 }
-
 
 /* header */
 .header-background {
