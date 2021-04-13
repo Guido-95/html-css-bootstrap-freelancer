@@ -203,7 +203,7 @@ textarea:focus {
     padding-bottom: 50px;
 }
 
-.portfolio_item{
+.portfolio_item {
     position: relative;
     cursor: pointer;
     display: block;
@@ -269,34 +269,42 @@ footer {
 }
 
 /* social-footer-style-hover */
-.social-2-3 {
-    font-size: 15px;
-    color: white;
+.ms_social {
+    list-style: none;
+}
+
+.ms_social li {
+    overflow: hidden;
+    display: inline-block;
     border-radius: 50%;
     border: 1px solid white;
-    padding: 15px;
-}
-.social-1-4 {
-    font-size: 15px;
     color: white;
-    margin: 2px;
-    border-radius: 50%;
-    border: 1px solid white;
-    padding: 15px 18px;
 }
-.social-1-4:hover {
-    color: #3a546d ;
+
+.ms_social a {
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+.ms_social > li:hover {
+    overflow: hidden;
     background-color: white;
 }
-.social-2-3:hover{
+
+.ms_social > li:hover  a {
     color: #3a546d ;
-    background-color: white;
 }
 
 /* /social-footer-style-hover */
 footer .paragraph {
     text-align: center;
 }
+
 
 #copyright {
     line-height: 100px;
@@ -336,9 +344,8 @@ footer a {
         background-color: rgba(0, 0, 0, 0.5);
         border: 1px solid white;
     }
-    /* /button-right-header */
 
-    
+    /* /button-right-header */
     .link-style_button {
         color: white;
         font-size: 10px;
@@ -367,10 +374,10 @@ footer a {
     /* /jumbotron*/
 
     /* line-star */
-    hr{
+    hr {
         width: 11%;
     }
-    .fa-star{
+    .fa-star {
         font-size: 30px;
         margin: 0;
     }
@@ -380,7 +387,6 @@ footer a {
         margin-top: 40px;
     } 
 }
-
 /* h2-jumbotron fix mobile */
 @media screen and (max-width:440px) {
     #jumbotron > h2 {
@@ -390,31 +396,38 @@ footer a {
 
 /* tablet */
 @media screen and (min-width:768px) and (max-width:1200px) {
-
+    /* jumbotron */
     #jumbotron > h1 {
         font-size: 40px;
     
     }
-
-    #jumbotron-img{
+    #jumbotron-img {
         width: 30%;
     }
 
     /* social */
-    .social-2-3{
-        font-size: 18px;
-        padding: 12px;
+    .ms_social li {
+        overflow: hidden;
+        display: inline-block;
+        border-radius: 50%;
+        border: 1px solid white;
+        color: white;
     }
-    .social-1-4 {
-        font-size: 18px;
-        padding: 12px 15px;
+    .ms_social a {
+        text-align: center;
+        display: inline-block;
+        font-size: 15px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        color: white;
     }
 
     /* line-star */
-    hr{
+    hr {
         width: 10%;
     }
-    .fa-star{
+    .fa-star {
         font-size: 30px;
         margin: 0px 15px;
     } 
